@@ -1,2 +1,7 @@
 streamlit
 pandas
+numpy
+ydata-profiling
+scipy
+nltk
+scikit-learn
