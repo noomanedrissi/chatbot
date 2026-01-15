@@ -9,6 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # Ensure necessary NLTK data is downloaded
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
@@ -76,4 +77,5 @@ if user_question:
         with st.spinner('Searching for the best answer...'):
             response = chatbot(user_question)
             st.markdown(f"**Bot Response:**")
+
             st.write(response)
